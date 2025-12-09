@@ -42,7 +42,7 @@ Return only the headline.`;
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "x-ai/grok-beta",
+      model: "amazon/nova-2-lite-v1:free",
       messages: [{ role: "user", content: formattedPrompt }],
     }),
   });
